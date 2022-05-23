@@ -19,4 +19,4 @@ jobs:
       - name: Update the wiki
         run: |
           git --version
-          git push git@github.com:SuperTux/supertux.wiki.git HEAD:master
+          git push --force git@github.com:SuperTux/supertux.wiki.git HEAD:master
